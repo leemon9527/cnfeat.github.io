@@ -35,7 +35,7 @@ description: saltstack grains
       cabinet: 13
       cab_u: 14-15
 此时执行`salt 'SALT-MINION1' grains.item roles`则返回如下结果
-![return img](E:\Desktop\grains-roles.jpg)
+![return img](http://7xweaf.com1.z0.glb.clouddn.com/grains-roles.jpg)
 ####通过/etc/salt/grains on minion自定义grains
 如果不希望修改minion的配置文件，可以通过单独的grains配置文件来自定义grain,配置的方法如在minion config中一样，只是少了一个顶层的grains标识
 

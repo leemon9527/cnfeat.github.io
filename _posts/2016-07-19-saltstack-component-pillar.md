@@ -53,7 +53,7 @@ top.sls的结构与匹配方式
 	  isWorking: True
 	---
 执行`salt '*' pillar.items`返回结果
-![pillar](E:\Desktop\t_pillar.jpg)
+![pillar](http://7xweaf.com1.z0.glb.clouddn.com/t_pillar.jpg)
 
 #####命令行自定义pillar
 	
