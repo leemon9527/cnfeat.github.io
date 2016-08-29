@@ -70,10 +70,10 @@ top.sls的结构与匹配方式
 
 	apache:
 	  pkg.installed:
-	    - name: {{ pillar['pkgs']['apache']}}
+	    - name: {% raw %}{{ pillar['pkgs']['apache']}}{% endraw%}
 
 使用pillar的GET方法引用 
 
 	apache:
-	  :pkg.installed:
-	    - name {{ salt['pillar.get']('pkgs','apache')}}
+	  pkg.installed:
+	    - name: {% raw %}{{ salt['pillar.get']('pkgs','apache')}}{% endraw%}
